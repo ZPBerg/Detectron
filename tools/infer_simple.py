@@ -135,7 +135,7 @@ def main(args):
             dataset=dummy_coco_dataset,
             box_alpha=0.3,
             show_class=True,
-            thresh=0.7,
+            thresh=0.1,
             kp_thresh=2
         )
 
