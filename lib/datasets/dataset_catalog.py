@@ -185,5 +185,10 @@ DATASETS = {
             _DATA_DIR + '/VOC2012/annotations/voc_2012_trainval.json',
         DEVKIT_DIR:
             _DATA_DIR + '/VOC2012/VOCdevkit2012'
-    }
+    },
+    'my_data': {
+        IM_DIR:
+            _DATA_DIR + '/coco/coco_trainMyData',
+        ANN_FN:
+            _DATA_DIR + '/coco/annotations/phage.2-1.json'
 }
