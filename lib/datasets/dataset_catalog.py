@@ -191,4 +191,5 @@ DATASETS = {
             _DATA_DIR + '/coco/coco_trainMyData',
         ANN_FN:
             _DATA_DIR + '/coco/annotations/phage.2-1.json'
+    }
 }
