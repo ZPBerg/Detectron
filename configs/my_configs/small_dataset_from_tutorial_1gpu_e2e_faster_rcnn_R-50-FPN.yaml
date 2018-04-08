@@ -46,8 +46,8 @@ TRAIN:
   RPN_PRE_NMS_TOP_N: 2000  # Per FPN level
 TEST:
   DATASETS: ('coco_2014_minival',) # TODO? currently no testing data
-  SCALES: (500,)
-  MAX_SIZE: 833
+  SCALES: (250,)
+  MAX_SIZE: 500
   NMS: 0.5
   RPN_PRE_NMS_TOP_N: 1000  # Per FPN level
   RPN_POST_NMS_TOP_N: 1000
