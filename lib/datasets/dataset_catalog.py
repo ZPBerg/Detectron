@@ -191,5 +191,11 @@ DATASETS = {
             _DATA_DIR + '/coco/coco_trainMyData',
         ANN_FN:
             _DATA_DIR + '/coco/annotations/phage.2-1.json'
+    },
+    'my_data_test': {
+        IM_DIR:
+            _DATA_DIR + '/coco/coco_trainMyData_test',
+        ANN_FN:
+            _DATA_DIR + '/coco/annotations/phage.2-1.bin-2.json'
     }
 }
